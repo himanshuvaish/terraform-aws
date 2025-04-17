@@ -10,7 +10,7 @@ import (
 
 func TestNatGatewayModule(t *testing.T) {
 	terraformOptions := &terraform.Options{
-		TerraformDir: "../../modules/nat_gateway",
+		TerraformDir: "../../../modules/nat_gateway",
 		Vars: map[string]interface{}{
 			"public_subnet_id": "subnet-12345678",
 			"nat_name":         "test-nat",

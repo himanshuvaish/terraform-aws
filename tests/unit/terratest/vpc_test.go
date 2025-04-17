@@ -10,7 +10,7 @@ import (
 
 func TestVpcModule(t *testing.T) {
 	terraformOptions := &terraform.Options{
-		TerraformDir: "../../modules/vpc",
+		TerraformDir: "../../../modules/vpc",
 		Vars: map[string]interface{}{
 			"vpc_cidr": "10.0.0.0/16",
 			"vpc_name": "test-vpc",

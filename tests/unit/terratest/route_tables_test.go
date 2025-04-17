@@ -10,7 +10,7 @@ import (
 
 func TestRouteTablesModule(t *testing.T) {
 	terraformOptions := &terraform.Options{
-		TerraformDir: "../../modules/route_tables",
+		TerraformDir: "../../../modules/route_tables",
 		Vars: map[string]interface{}{
 			"vpc_id":                  "vpc-12345678",
 			"nat_gateway_id":          "nat-12345678",

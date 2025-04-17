@@ -10,7 +10,7 @@ import (
 
 func TestSecurityGroupsModule(t *testing.T) {
 	terraformOptions := &terraform.Options{
-		TerraformDir: "../../modules/security_groups",
+		TerraformDir: "../../../modules/security_groups",
 		Vars: map[string]interface{}{
 			"vpc_id":  "vpc-12345678",
 			"sg_name": "test-sg",
