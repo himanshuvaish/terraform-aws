@@ -1,0 +1,27 @@
+# Ignore Terraform binary files
+*.tfstate
+*.tfstate.backup
+
+# Ignore Terraform plan files
+*.plan
+*.out
+
+# Ignore .terraform directories (modules and plugins)
+**/.terraform/*
+
+# Ignore Terratest logs and cache
+*.log
+*.tmp
+
+# Ignore Go modules cache
+go.sum
+vendor/
+
+# Ignore editor and OS-specific files
+*.swp
+.DS_Store
+Thumbs.db
+
+# Ignore test results
+tf_test_results.json
+coverage.out
